@@ -1,0 +1,13 @@
+# Copyright 2022 Canonical
+# See LICENSE file for licensing details.
+
+name: hot-potato
+display-name: |
+  Hot Potato
+description: |
+  The game of Hot Potato with cloud software.
+summary: |
+  Charming the game of hot-potato that can be played with friends!
+peers:
+  players:
+    interface: player-replica

@@ -1,0 +1,11 @@
+# Copyright 2022 Canonical
+# See LICENSE file for licensing details.
+
+options:
+  max-passes:
+    description: Maximum number passes for the token.
+    type: int
+  delay:
+    default: 0
+    description: How long to delay message before passing to the next unit.
+    type: float

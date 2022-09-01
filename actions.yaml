@@ -1,0 +1,14 @@
+# Copyright 2022 Canonical
+# See LICENSE file for licensing details.
+
+start:
+  description: >
+    Start a game of hot potato with the other units in the model.
+  params:
+    token:
+      description: "Token to pass between units."
+      type: string
+      default: ""
+  required: [token]
+  additionalProperties: false
+  type: object
